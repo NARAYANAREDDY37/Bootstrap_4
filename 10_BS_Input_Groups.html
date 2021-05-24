@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <link rel="stylesheet" href="bootstrap/css/font-awesome-5.8.1.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="bootstrap/css/mdb.css" />
+    <link rel="stylesheet" href="bootstrap/css/style.css" />
+
+    <title>BS Input Groups</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <a href="#" class="navbar-brand">BS Input Groups</a>
+    </nav>
+
+    <!------------------ Start Here  ------------------>
+    <div class="container mt-5">
+      <!-- Input group prepend -->
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text bg-danger">
+            <i class="fa fa-user-circle"></i>
+          </span>
+          <input type="text" class="form-control bg-light" />
+        </div>
+      </div>
+
+      <!-- Input group append -->
+      <div class="input-group mb-4">
+        <input type="text" class="form-control bg-light" placeholder="email" />
+        <div class="input-group-append">
+          <span class="input-group-text bg-primary text-white"
+            >@gmail.com
+          </span>
+        </div>
+      </div>
+      <!-- Both -->
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text bg-danger">
+            <i class="fa fa-user-circle"></i>
+          </span>
+          <input
+            type="text"
+            class="form-control bg-light"
+            placeholder="username"
+          />
+        </div>
+        <div class="input-group-append">
+          <span class="input-group-text bg-primary text-white"
+            >@gmail.com
+          </span>
+        </div>
+      </div>
+      <!-- Input group with text area -->
+      <div class="input-group mb-4">
+        <div class="input-group-prepend">
+          <span class="input-group-text bg-success">
+            <i class="fa fa-pen-alt"></i>
+          </span>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="3"
+            class="bg-light"
+          ></textarea>
+        </div>
+      </div>
+
+      <!-- Redeem option -->
+      <div class="input-group mb-4">
+        <input
+          type="text"
+          class="form-control bg-light"
+          placeholder="Coupon code"
+        />
+        <div class="input-group-append">
+          <span class="input-group-text bg-dark text-white"> Redeem </span>
+        </div>
+      </div>
+    </div>
+
+    <!------------------ End Here  ------------------->
+    <div style="margin-bottom: 500px" ;></div>
+
+    <!-- bootstrap Js Files   -->
+    <script src="bootstrap/js/jQuery-3.5.1.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/mdb.min.js"></script>
+  </body>
+</html>
